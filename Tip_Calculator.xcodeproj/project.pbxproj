@@ -14,6 +14,7 @@
 		F9679C3F1D109C9C00307FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9679C3D1D109C9C00307FAE /* LaunchScreen.storyboard */; };
 		F9679C4A1D109C9C00307FAE /* Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9679C491D109C9C00307FAE /* Tip_CalculatorTests.swift */; };
 		F9679C551D109C9C00307FAE /* Tip_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9679C541D109C9C00307FAE /* Tip_CalculatorUITests.swift */; };
+		F9679C631D10B78E00307FAE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9679C621D10B78E00307FAE /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F9679C501D109C9C00307FAE /* Tip_CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tip_CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9679C541D109C9C00307FAE /* Tip_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorUITests.swift; sourceTree = "<group>"; };
 		F9679C561D109C9C00307FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9679C621D10B78E00307FAE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		F9679C281D109C9C00307FAE = {
 			isa = PBXGroup;
 			children = (
+				F9679C621D10B78E00307FAE /* SettingsViewController.swift */,
 				F9679C331D109C9C00307FAE /* Tip_Calculator */,
 				F9679C481D109C9C00307FAE /* Tip_CalculatorTests */,
 				F9679C531D109C9C00307FAE /* Tip_CalculatorUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				F9679C371D109C9C00307FAE /* ViewController.swift in Sources */,
 				F9679C351D109C9C00307FAE /* AppDelegate.swift in Sources */,
+				F9679C631D10B78E00307FAE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				F9679C5B1D109C9C00307FAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9679C5C1D109C9C00307FAE /* Build configuration list for PBXNativeTarget "Tip_CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				F9679C5E1D109C9C00307FAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9679C5F1D109C9C00307FAE /* Build configuration list for PBXNativeTarget "Tip_CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				F9679C611D109C9C00307FAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
